@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+
+table,
+th,
+td {
+  padding: 10px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.margin-2px {
+  margin: 2px;;
+}
+
+.header {
+  text-align: center;
+}
